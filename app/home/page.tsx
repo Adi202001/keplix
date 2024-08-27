@@ -31,7 +31,7 @@ const Home = (props: Props) => {
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <Image
-            src="/1.jpg"
+            src="./1.jpg"
             fill
             style={{ objectFit: 'cover' }} alt={''}       />
       </div>
@@ -48,7 +48,7 @@ const Home = (props: Props) => {
         <div ref={carRef} className="relative inset-0 flex items-center justify-center h-full">
           <div className="relative h-[70%] w-[70%]">
             <Image
-              src="/2.png"
+              src="./2.png"
               alt="Luxury car"
               layout="fill"
               objectFit="contain"
@@ -81,7 +81,7 @@ const Home = (props: Props) => {
     <div className="relative h-screen bg-gray-900 text-white overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/3.jpg"
+          src="./3.jpg"
           alt="Background"
           layout="fill"
           objectFit="cover"
@@ -146,7 +146,7 @@ const Home = (props: Props) => {
     <section className="relative text-white p-8 h-screen flex">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/5.png"
+          src="./5.png"
           fill
           style={{ objectFit: 'cover' }}
           alt="Background image"
@@ -188,7 +188,7 @@ const Home = (props: Props) => {
       {/* Background Image */}
       <div className="absolute h-1/2 inset-0">
         <Image
-          src="/4.jpg"
+          src="./4.jpg"
           fill
           style={{ objectFit: 'cover' }}
           alt="Keplix background"
